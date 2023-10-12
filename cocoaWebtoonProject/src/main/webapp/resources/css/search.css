@@ -12,7 +12,7 @@ header {
     padding: 10px;
     text-align: center;
     height: 100px;
-    margin-top: 60px;
+    margin-top: -30px;
     
 }
 
@@ -80,9 +80,11 @@ main {
 
 
 section {
+	max-width : 640px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin : 0 auto;
 }
 
 article {
